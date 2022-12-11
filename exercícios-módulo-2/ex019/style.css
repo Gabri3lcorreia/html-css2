@@ -1,0 +1,34 @@
+
+
+body{
+    background-color: #69bd699a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1{
+  color: #013d01;
+}
+h2{
+  color: #0a640a;
+}
+#primeiro-id{
+    background-color: darkgreen;
+    text-align: center;
+    color: #010e01;
+}
+.basico{
+   color: #b80b0b;
+   font-weight: bolder;
+   text-decoration: underline;
+}
+.intermediario{
+    color:blue ;
+    font-weight: bolder;
+}
+.avancado{
+    color: green;
+    font-weight: bolder;
+}
+.destaque{
+    background-color: darkorange;
+}
