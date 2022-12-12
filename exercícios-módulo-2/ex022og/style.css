@@ -1,0 +1,31 @@
+
+body{
+    background-color: #444141;
+    /*background-image: url(imagens/wallpaper001.jpg);*/
+}
+
+.quadrado{
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+#q1{
+    background-color: skyblue;
+}
+#q2{
+    background-image: linear-gradient(to bottom, #000000, #444141, #948a8a, #ffffff);
+}
+#q3{
+    background-image: url(imagens/pattern003.png);
+}
+#q4{
+    background-image: url(https://i.pinimg.com/564x/51/cd/3a/51cd3aea2b0852fd4f5e98ac51eb074b.jpg);
+}
+#q5{
+    background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/0854516c-d61c-4808-8f23-95f7396ebbae-profile_image-300x300.png);
+    
+}
