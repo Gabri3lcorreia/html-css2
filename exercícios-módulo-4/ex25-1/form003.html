@@ -5,6 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <style>
+        #search{
+            padding: 10px;
+            width: 172px;
+            height: 78px;
+            margin-left: 15px;
+            border: 1px dashed blue ;
+            
+        }
+        #searchtxt{
+            font-size: 17px;
+            margin-left: 87px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #searchbutt{
+            margin-top: 5px;
+            
+        }
+    </style>
 </head>
 <body>
     <h1>Teste de Formulario</h1>
@@ -33,6 +53,15 @@
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
         </p>
+        <div id="search">
+            <form action="search" method="get" autocomplete="off">
+                <p>
+            <input type="text" name="src" id="isrc" autocomplete="off"> <br>
+            <label for="isrc" id="searchtxt" >Search</label>
+            <input type="button" id="searchbutt" value="Go" name="src" id="isrc" >
+        </p>
+            </form>
+        </div>
         
     </form>
 </body>
